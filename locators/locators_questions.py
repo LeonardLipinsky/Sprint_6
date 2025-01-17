@@ -1,0 +1,20 @@
+from selenium.webdriver.common.by import By
+
+class Locators:
+    FIRST_QUESTION = [By.ID, 'accordion__heading-0']
+    FIRST_ANSWER = [By.ID, 'accordion__panel-0']
+    SECOND_QUESTION = [By.ID, 'accordion__heading-1']
+    SECOND_ANSWER = [By.ID, 'accordion__panel-1']
+    THIRD_QUESTION = [By.ID, 'accordion__heading-2']
+    THIRD_ANSWER = [By.ID, 'accordion__panel-2']
+    FOURTH_QUESTION = [By.ID, 'accordion__heading-3']
+    FOURTH_ANSWER = [By.ID, 'accordion__panel-3']
+    FIFTH_QUESTION = [By.ID, 'accordion__heading-4']
+    FIFTH_ANSWER = [By.ID, 'accordion__panel-4']
+    SIX_QUESTION = [By.ID, 'accordion__heading-5']
+    SIX_ANSWER = [By.ID, 'accordion__panel-5']
+    SEVEN_QUESTION = [By.ID, 'accordion__heading-6']
+    SEVEN_ANSWER = [By.ID, 'accordion__panel-6']
+    EIGHT_QUESTION = [By.ID, 'accordion__heading-7']
+    EIGHT_ANSWER = [By.ID, 'accordion__panel-7']
+    RCC = [By.ID, 'rcc-confirm-button']
