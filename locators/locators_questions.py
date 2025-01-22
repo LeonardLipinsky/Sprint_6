@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-class Locators:
+class LocatorsQuestions:
     FIRST_QUESTION = [By.ID, 'accordion__heading-0']
     FIRST_ANSWER = [By.ID, 'accordion__panel-0']
     SECOND_QUESTION = [By.ID, 'accordion__heading-1']
