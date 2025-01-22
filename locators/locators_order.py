@@ -1,0 +1,22 @@
+from selenium.webdriver.common.by import By
+
+class LocatorsOrder:
+    FIRST_NAME_FIELD = [By.XPATH, '//input[@placeholder="* Имя"]']
+    LAST_NAME_FIELD = [By.XPATH, '//input[@placeholder="* Фамилия"]']
+    ADDRESS_FIELD = [By.XPATH, '//input[@placeholder="* Адрес: куда привезти заказ"]']
+    SUBWAY_FIELD = [By.XPATH, '//input[@placeholder="* Станция метро"]']
+    SUBWAY_SELECT = [By.XPATH, '//*[text() = ']
+    PHONE_FIELD = [By.XPATH, '//input[@placeholder="* Телефон: на него позвонит курьер"]']
+    CONFIRM_BUTTON = [By.XPATH, '//button[@class="Button_Button__ra12g Button_Middle__1CSJM"]']
+    DATE_FIELD = [By.XPATH, '//input[@placeholder="* Когда привезти самокат"]']
+    DATE_SELECT = [By.XPATH, '//div[@aria-label= ']
+    TIME_FIELD = [By.XPATH, '//div[@class="Dropdown-placeholder"]']
+    TIME_SELECT = [By.XPATH, '//div[@class="Dropdown-menu"]//div']
+    ORDER_BUTTON = [By.XPATH, '//button[@class="Button_Button__ra12g Button_Middle__1CSJM"]']
+    ORDER_ACCEPT_BUTTON = [By.XPATH, '//button[contains(text(),"Да")]']
+    SUCCESS_MESSAGE = [By.XPATH, '//div[@class="Order_ModalHeader__3FDaJ"]']
+    EXIT_ORDER_BUTTON = [By.XPATH, '//button[contains(text(),"Посмотреть статус")]']
+    HOME_BUTTON = [By.XPATH, '//a[@class="Header_LogoScooter__3lsAR"]']
+    YANDEX_BUTTON = [By.XPATH, '//a[@class="Header_LogoYandex__3TSOI"]']
+    DZEN_LOGO = [By.XPATH, '//div[@class="dzen-layout--login-button__textButtonContainer-3D dzen-layout--login-button__isNotBlackHeader-24"]//button[@aria-label="Войти"]']
+    RCC_DZEN = [By.XPATH, '//button[contains(text(),"Понятно")]']
